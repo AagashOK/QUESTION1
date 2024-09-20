@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+ int numA,numB,numC,numD,numE,avg,tot;
+ printf("enter 5 number:");
+ scanf("%d%d%d%d%d",&numA,&numB,&numC,&numD,&numE);
+ tot=numA+numB+numC+numD+numE;
+ avg=tot/5;
+ printf("total=%d\n",tot);
+ printf("average=%d\n",avg);
+  return 0;
